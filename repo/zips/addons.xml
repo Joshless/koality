@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="koality" name="Koality Repo" version="1.0.0" provider-name="Joshless">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="koality" name="Koality Repo" version="1.0.0" provider-name="Joshless">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Joshless/koality/main/repo/zips/addons.xml</info>
@@ -10,11 +10,24 @@
     <extension point="xbmc.addon.metadata">
         <summary>Koality</summary>
         <description>Koality Build Repo</description>
-        <disclaimer></disclaimer>
+        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
+</addon><addon id="plugin.video.koality" name="koality" version="1.0.0" provider-name="Joshless">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">koality</summary>
+    <description lang="en">koality</description>
+	<website>https://github.com/Joshless</website>
+    <platform>all</platform>
+  </extension>
+</addon></addons>
