@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.koality" name="plugin.video.koality" version="1.0.0" provider-name="Joshless">
+</addon><addon id="plugin.video.koality-build" name="plugin.video.koality-build" version="1.0.0" provider-name="Joshless">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -25,8 +25,8 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">koality</summary>
-    <description lang="en">koality</description>
+    <summary lang="en">koality-build</summary>
+    <description lang="en">koality-build</description>
 	<website>https://github.com/Joshless</website>
     <platform>all</platform>
   </extension>
