@@ -18,7 +18,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.koality-build" name="BuilderX" version="1.0.0" provider-name="Joshless">
+<addon id="plugin.program.koalitywizard" name="KoalityBuild Wizard" version="1.0.0" provider-name="Joshless">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
@@ -26,8 +26,8 @@
         <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">koality-build</summary>
-    <description lang="en">koality-build</description>
+    <summary lang="en">KoalityBuild Wizard</summary>
+    <description lang="en">Josh's krasses Family and Friends Build</description>
 	<website>https://github.com/Joshless</website>
     <platform>all</platform>
   </extension>
