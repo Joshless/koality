@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.koality" name="koality" version="1.0.0" provider-name="Joshless">
+</addon><addon id="plugin.video.koality" name="plugin.video.koality" version="1.0.0" provider-name="Joshless">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
