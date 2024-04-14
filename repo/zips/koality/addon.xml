@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="koality" name="Koality Repo" version="1.0.0" provider-name="Joshless">
+<addon id="koality" name="Koality Repo" version="1.0.1" provider-name="Joshless">
     <extension point="xbmc.addon.repository" name="koality">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Joshless/koality/master/repo/zips/addons.xml</info>
