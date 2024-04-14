@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="koality" name="Koality Repo" version="1.0.0" provider-name="Joshless">
+    <extension point="xbmc.addon.repository" name="Koality">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Joshless/koality/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Joshless/koality/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Joshless/koality/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Koality</summary>
+        <description>Koality Build Repo UwU lul</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.program.koalitywizard" name="KoalityBuild Wizard" version="1.0.0" provider-name="Joshless">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KoalityBuild Wizard</summary>
+    <description lang="en">Josh's krasses Family and Friends Build</description>
+	<website>https://github.com/Joshless</website>
+    <platform>all</platform>
+  </extension>
+</addon></addons>
